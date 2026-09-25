@@ -28,4 +28,4 @@ result = classifier(
 print("\nPrediction\n")
 
 for label, score in zip(result["labels"], result["scores"]):
-    print(f"{label}: {score:.4f}")
+    print(f"{label}: {score:.5f}")
